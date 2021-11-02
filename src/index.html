@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="">
+  <section>
+    <div class="container mx-auto py-4">
+      <div class="flex items-center">
+        <div>
+          <div class="flex items-center">
+            <img src="./assets/logo.svg" class="h-10 mt-2" alt="">
+            <span class="text-3xl ml-4 font-bold text-gray-800">
+              Brand Name
+            </span>
+          </div>
+        </div>
+        <div class="ml-auto">
+          <div class="relative flex font-semibold">
+            
+            <input onclick="onModeButtonClick()" class="absolute opacity-0" type="radio" id="lightMode" name="theme" value="Light">
+            <label
+              class="border-purple-600 w-20 cursor-pointer border-t border-l border-b text-center py-2 rounded-l-3xl"
+              for="lightMode">Light</label>
+
+            <input onclick="onModeButtonClick()" class="absolute opacity-0" type="radio" id="defaultMode" name="theme" value="Default">
+            <label
+              class="border-purple-600 w-20 cursor-pointer border text-center py-2"
+              for="defaultMode">Default</label>
+
+            <input onclick="onModeButtonClick()" class="absolute opacity-0" type="radio" id="darkMode" name="theme" value="Dark">
+            <label
+              class="border-purple-600 w-20 cursor-pointer border-t border-r border-b text-center py-2 rounded-r-3xl"
+              for="darkMode">Dark</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mx-auto py-28">
+      <div class="flex flex-wrap items-center">
+        <div class="w-1/2">
+
+          <h2 class="text-6xl font-black text-gray-800">
+            We Help to <span class="text-purple-600">Build</span> <br />Your Dreams
+          </h2>
+
+          <p class="my-8 leading-loose text-lg text-gray-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dicta neque? Soluta pariatur perspiciatis
+            quod quos exercitationem eius sed tempora labore, architecto, debitis sunt impedit ipsa doloribus, laborum
+            sit deserunt!
+          </p>
+
+          <a href="" class="px-6 py-3 rounded-xl bg-purple-600 font-semibold text-white">
+            <span class="inline-block">
+              Contact Us
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3 inline-block h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+
+        </div>
+        <div class="w-1/2">
+          <img src="./assets/hero.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+</body>
+
+</html>

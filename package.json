@@ -1,0 +1,22 @@
+{
+  "name": "Tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles.css -o src/styles.css",
+    "dev": "npm run build & live-server src --port=8080",
+    "prod": "set NODE_ENV=production & npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "cssnano": "^5.0.8",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.16",
+    "win-node-env": "^0.4.0"
+  }
+}
